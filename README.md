@@ -7,6 +7,7 @@ Demo for converting MVC to Blazor
 ## Steps
 1. Create Blazor project
 2. Add Blazor project to Server dependency
+3. Add package to Server:     `<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.3" />` 
 3. Remove wwwroot/index.html from the Blazor project
 4. Remove from Blazor Program.Main: builder.RootComponents.Add<App>("#app");
 5. Change in startup of the Server:
