@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FromMVCToBlazor.Blazor\FromMVCToBlazor.Blazor.csproj" />
     <ProjectReference Include="..\FromMVCToBlazor.Shared\FromMVCToBlazor.Shared.csproj" />
   </ItemGroup>
 

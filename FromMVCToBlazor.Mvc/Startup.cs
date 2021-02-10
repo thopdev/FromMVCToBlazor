@@ -35,6 +35,7 @@ namespace FromMVCToBlazor.Mvc
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseWebAssemblyDebugging();
             }
             else
             {
@@ -43,6 +44,8 @@ namespace FromMVCToBlazor.Mvc
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+            app.UseBlazorFrameworkFiles();
+
             app.UseStaticFiles();
 
             app.UseRouting();

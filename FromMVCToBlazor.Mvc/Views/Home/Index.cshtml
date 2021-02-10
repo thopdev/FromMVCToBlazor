@@ -1,8 +1,11 @@
-﻿@model FromMVCToBlazor.Shared.Models.RenderModel
+﻿@using FromMVCToBlazor.Blazor.Pages
+@model FromMVCToBlazor.Shared.Models.RenderModel
 @{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">@Model.Text</h1>
-</div>
+<component type="typeof(Counter)" render-mode="WebAssemblyPrerendered" />
+
+@section Scripts {
+    <script src="_framework/blazor.webassembly.js"></script>
+}

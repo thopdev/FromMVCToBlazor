@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FromMVCToBlazor.Shared", "F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromMVCToBlazor.Mvc", "FromMVCToBlazor.Mvc\FromMVCToBlazor.Mvc.csproj", "{468DED86-FB0D-4334-91A5-E466E7B38AA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromMVCToBlazor.Blazor", "FromMVCToBlazor.Blazor\FromMVCToBlazor.Blazor.csproj", "{C99C226D-5632-436F-BF82-8D1F92504A1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{468DED86-FB0D-4334-91A5-E466E7B38AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{468DED86-FB0D-4334-91A5-E466E7B38AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{468DED86-FB0D-4334-91A5-E466E7B38AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99C226D-5632-436F-BF82-8D1F92504A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99C226D-5632-436F-BF82-8D1F92504A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99C226D-5632-436F-BF82-8D1F92504A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99C226D-5632-436F-BF82-8D1F92504A1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
