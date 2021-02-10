@@ -3,6 +3,8 @@ Demo for converting MVC to Blazor
 
 ## Starting setup
 - MVC installed
+Or
+[Start setup](https://github.com/thopdev/FromMVCToBlazor/tree/0-project_start)
 
 ## Steps
 1. Create Blazor project
