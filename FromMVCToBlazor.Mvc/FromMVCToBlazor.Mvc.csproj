@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FromMVCToBlazor.Shared\FromMVCToBlazor.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
